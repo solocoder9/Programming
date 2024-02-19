@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class EvenOrOdd {
+
+    // Method to print the number is even or odd
     public static void checkNumber(int number) {
         if(number % 2 == 0) {
             System.out.println(number + " is an even number");
