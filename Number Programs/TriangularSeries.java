@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class TriangleNumber {
+public class TriangularSeries {
     
-    // Method to print squrare numbers 
+    // Method to print triangular numbers 
     static void printTri(int n) {
 
-        int temp = 1;
-        for(int i = 2; i <= n+1; i++) {
-            System.out.print(temp + " ");
+        int temp = 0;
+        for(int i = 1; i <= n; i++) {
             temp += i;
+            System.out.print(temp + " ");
         }
     }
 
