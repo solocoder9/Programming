@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TriangularSeries {
     
-    // Method to print triangular numbers 
+    // Method to print triangular series
     static void printTri(int n) {
 
         int temp = 0;
