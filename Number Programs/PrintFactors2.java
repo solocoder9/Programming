@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrintFactors2 {
     
-    // Method to print factors of a number 
+    // Method to print factors of a number excluding 1 and n
     static void printFactors(int n) {
         for(int i = 2; i < n; i++) {
             if(n % i == 0) {

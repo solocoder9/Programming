@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     
     // Method to the number is prime or not
-    static void printFactors(int n) {
+    static void printPrime(int n) {
         int count = 0;
 
         for(int i = 2; i < n; i++) {
@@ -26,7 +26,7 @@ public class PrimeNumber {
         System.out.print("Enter any number: ");
         int n = sc.nextInt();
 
-        printFactors(n);
+        printPrime(n);
 
         sc.close();
     }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrintEvenOdd {
 
     // Method to print even numbers
-    static void even(int a, int b) {
+    static void printEven(int a, int b) {
         for(int i = a; i <= b; i++) {
             if(i % 2 == 0) {
                 System.out.print(i + " ");
@@ -12,7 +12,7 @@ public class PrintEvenOdd {
     }
 
     // Method to print odd numbers
-    static void odd(int a, int b) {
+    static void printOdd(int a, int b) {
         for(int i = a; i <= b; i++) {
             if(i % 2 != 0) {
                 System.out.print(i + " ");
@@ -29,9 +29,9 @@ public class PrintEvenOdd {
         System.out.print("Enter the value of b: ");
         int b = sc.nextInt();
 
-        even(a, b);
+        printEven(a, b);
         System.out.println("\n");
-        odd(a, b);
+        printOdd(a, b);
 
         sc.close();
     }
