@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrintPrime {
+public class PrintPrimeNumbers {
 
     // Method to check the number is prime or not
     static boolean checkPrime(int n) {
