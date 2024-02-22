@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Series4 {
     
-    // Method to print aseries
+    // Method to print arithmetic series
     static void print(int n) {
         int a = 10;
         int b = 5;

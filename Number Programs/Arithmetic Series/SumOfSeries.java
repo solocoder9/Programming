@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SumOfSeries {
     
-    // Method to calculate sum of n numbers
+    // Method to calculate sum of series
     static int sum(int n) {
         int sum = 0;
         for(int i = 1; i <= n; i++) {
