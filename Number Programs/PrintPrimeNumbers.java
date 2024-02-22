@@ -9,6 +9,7 @@ public class PrintPrimeNumbers {
             return false;
         }
 
+        // Time Complexity O(sqrt(n))
         for(int i = 2; i <= Math.sqrt(n); i++) {
             if(n % i == 0) {
                 return false;
