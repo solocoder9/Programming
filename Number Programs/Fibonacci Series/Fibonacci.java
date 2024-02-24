@@ -1,19 +1,33 @@
+/*
+ * Examples:
+ * 
+ * Input: 
+ * n = 2
+ * Output:
+ * 0 1
+ * 
+ * Input:
+ * n = 5
+ * output:
+ * 0 1 1 2 3
+ */
+
 import java.util.Scanner;
 
 public class Fibonacci {
     
-    // Method to print Fibonacci series
+    // Method to print Fibonacci series up to the nth term
     static void fibonacci(int n) {
 
-        int a = 0;
-        int b = 1;
+        int firstTerm = 0;
+        int secondTerm = 1;
         
 
-        for(int i = 1; i <= n; i++) {
-            System.out.print(a+ " ");
-            int c = a + b;
-            a = b;
-            b = c;
+        for (int i = 1; i <= n; i++) {
+            System.out.print(firstTerm+ " ");
+            int thirdTerm = firstTerm + secondTerm;
+            firstTerm = secondTerm;
+            secondTerm = thirdTerm;
         }
     }
 
