@@ -21,6 +21,10 @@ public class Fibonacci {
 
         int firstTerm = 0;
         int secondTerm = 1;
+
+        if(n < 1) {
+            System.out.print("Invalid input");
+        }
         
 
         for (int i = 1; i <= n; i++) {
