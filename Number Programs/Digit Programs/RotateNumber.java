@@ -34,8 +34,8 @@ public class RotateNumber {
         }
 
         int rotateNumber = 1;
-        int rem = n % ((int)Math.pow(10, rotBy));
-        n = n / (int) Math.pow(10, rotBy);
+        int rem = n % ((int) Math.pow(10, rotBy));
+        n = n / ((int) Math.pow(10, rotBy));
         rotateNumber = (rem * (int) Math.pow(10, (totalDigits - rotBy))) + n;
 
         return rotateNumber;
