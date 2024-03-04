@@ -30,7 +30,7 @@ public class _09_Peterson {
     }
 
     // Method to check sum of factorials of all digit is equal to number itself
-    static boolean checkSmith(int n) {
+    static boolean checkPeter(int n) {
 
         int temp = n;
         int sumFactorial = 0;
@@ -50,7 +50,7 @@ public class _09_Peterson {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
 
-        if(checkSmith(n)) {
+        if(checkPeter(n)) {
             System.out.println("Peter");
         }
         else {
