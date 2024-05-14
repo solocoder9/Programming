@@ -1,23 +1,33 @@
+// Java program to calculate the factorial of a number
+
 import java.util.Scanner;
 
 public class FactorialOfaNumber {
-    // Method to calculate factorial of a number
-    static int calFactorial(int n) {
-        int factorial = 1;
-        for (int i = 2; i <= n; i++) {
-            factorial *= i;
-        }
-        return factorial;
-    }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+	// Method to calculate the factorial of a number
+	public static long factorial(int n) {
 
-        System.out.print("Enter any number: ");
-        int n = sc.nextInt();
+		if (n <= 1) {
+			return 1;
+		}
 
-        System.out.println("Factorial of " + n + " is: " + calFactorial(n));
+		long fact = 1;
+		for (int i = 2; i <= n; i++) {
+			fact *= i;
+		}
 
-        sc.close();
-    }
+		return fact;
+	}
+
+	// Driver code
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter any number: ");
+		int n = sc.nextInt();
+
+		System.out.println("Factorial of " + n + " is: " + factorial(n));
+
+		sc.close();
+	}
 }
