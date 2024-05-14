@@ -1,10 +1,10 @@
-// Java program to calculate the factorial of a number
+// Java program to find the factorial of a given number
 
 import java.util.Scanner;
 
 public class FactorialOfaNumber {
 
-	// Method to calculate the factorial of a number
+	// Method to find the factorial of a given number
 	public static long factorial(int n) {
 
 		if (n <= 1) {
