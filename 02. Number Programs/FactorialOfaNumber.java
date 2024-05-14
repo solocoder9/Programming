@@ -17,6 +17,7 @@ public class FactorialOfaNumber {
         int n = sc.nextInt();
 
         System.out.println("Factorial of " + n + " is: " + calFactorial(n));
+
         sc.close();
     }
 }
