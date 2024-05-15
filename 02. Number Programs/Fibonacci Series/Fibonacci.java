@@ -1,22 +1,10 @@
-/*
- * Examples:
- * 
- * Input: 
- * n = 2
- * Output:
- * 0 1
- * 
- * Input:
- * n = 5
- * output:
- * 0 1 1 2 3
- */
+// Java program to print the Fibonacci series up to nth term
 
 import java.util.Scanner;
 
 public class Fibonacci {
     
-    // Method to print Fibonacci series up to the nth term
+    // Method to print Fibonacci series up to nth term
     static void fibonacci(int n) {
 
         int firstTerm = 0;
@@ -35,6 +23,7 @@ public class Fibonacci {
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
