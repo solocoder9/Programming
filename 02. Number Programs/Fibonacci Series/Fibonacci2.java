@@ -1,3 +1,5 @@
+// Java program to print Fibonacci series up to nth term
+
 import java.util.Scanner;
 
 public class Fibonacci2 {
