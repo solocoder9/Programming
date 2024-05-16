@@ -1,3 +1,5 @@
+// Java program to check wheather the number is prime or not
+
 import java.util.Scanner;
 
 public class PrimeNumber {
