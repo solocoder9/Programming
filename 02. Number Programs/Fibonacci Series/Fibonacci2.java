@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Fibonacci2 {
     
     // Method to print Fibonacci series up to nth term
     static void fibonacci(int n) {
