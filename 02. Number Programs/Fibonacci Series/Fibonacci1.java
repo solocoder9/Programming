@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Fibonacci2 {
+public class Fibonacci1 {
     
     // Method to print Fibonacci series
     static void fibonacci(int n) {
