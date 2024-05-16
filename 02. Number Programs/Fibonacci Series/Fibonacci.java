@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
     
-    // Method to print Fibonacci series
+    // Method to print Fibonacci series up to nth term
     static void fibonacci(int n) {
 
         int a = 0;
