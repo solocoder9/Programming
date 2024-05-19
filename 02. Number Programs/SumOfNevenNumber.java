@@ -4,7 +4,7 @@ public class SumOfNevenNumber {
     // Method to print sum of n even number
     static void sumEven(int n) {
         int sum = 0;
-        for(int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             sum += 2;
         }
 
