@@ -11,6 +11,7 @@ public class SumOfNevenNumber {
         System.out.println("Sum of n even number is: " + sum);
     }
 
+    // Driver method
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
