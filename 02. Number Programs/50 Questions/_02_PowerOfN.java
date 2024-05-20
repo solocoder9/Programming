@@ -20,6 +20,7 @@ public class _02_PowerOfN {
         return powerOfNumber;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
