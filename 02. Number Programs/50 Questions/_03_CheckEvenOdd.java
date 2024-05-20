@@ -10,6 +10,7 @@ public class _03_CheckEvenOdd {
         return n % 2 == 0;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
