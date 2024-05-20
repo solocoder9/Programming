@@ -23,6 +23,7 @@ public class _01_FactorialOfaNumber {
         System.out.print("Factorial of " + n + " is: " + factorial);
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
