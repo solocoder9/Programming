@@ -6,7 +6,6 @@ public class _04_CheckEvenOdd {
     
     // Method to check if the number is even or odd
     static boolean checkEvenOdd(int n) {
-
         return (n & 1) == 0;
     }
 
