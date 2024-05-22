@@ -1,6 +1,10 @@
+// Java program to check the character
+
 import java.util.Scanner;
 
 public class CheckChar {
+
+    // Method to check the character
     public static char checkChar(char ch) {
         if(ch >= 'A' && ch <= 'Z') {
             System.out.println(ch+ " is a Uppercase");
@@ -23,6 +27,7 @@ public class CheckChar {
 
     } 
     
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
