@@ -1,3 +1,5 @@
+// Java program to check whether the number is even or odd
+
 import java.util.Scanner;
 
 public class EvenOrOdd {
@@ -10,9 +12,9 @@ public class EvenOrOdd {
         else {
             System.out.println(number + " is an odd number");
         }
-        
     }
     
+    // Driver code
     public static void main(String[] arga) {
         Scanner sc = new Scanner(System.in);
 
