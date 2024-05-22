@@ -1,12 +1,11 @@
 // Java program to check whether the number is even or odd
-// without using '%' operator
 
 import java.util.Scanner;
 
 public class EvenOrOdd3 {
 
     // Method to check whether the number is even or odd
-    // using bitwise operator
+    // using bitwise AND operator
     public static boolean checkEvenOrOdd(int n) {
         return (n & 1) == 0;
     }
