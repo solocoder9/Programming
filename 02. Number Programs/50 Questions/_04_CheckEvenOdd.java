@@ -1,4 +1,4 @@
-// Wajp to check odd or even without % 
+// Wajp to check odd or even without '%' operator
 
 import java.util.Scanner;
 
