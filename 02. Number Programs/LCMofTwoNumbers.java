@@ -14,7 +14,7 @@ public class LCMofTwoNumbers {
         System.out.print("Enter the value of secondNumber: ");
         int secondNumber = sc.nextInt();
         
-        // Using Math.mas() method to find the maximum between two numbers
+        // Using Math.max() method to find the maximum between two numbers
         int maxNumber = Math.max(firstNumber, secondNumber);
         int product = firstNumber * secondNumber;
         int lcm = 0;
