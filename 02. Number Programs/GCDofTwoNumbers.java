@@ -8,12 +8,7 @@ public class GCDofTwoNumbers {
 	// Method to find the GCD of two numbers
 	// Using for loop
 	public static int findGCD(int a, int b) {
-		int lowest = 0;
-		if (a < b) {
-			lowest = a;
-		} else {
-			lowest = b;
-		}
+		int lowest = (a < b) ? a : b;
 
 		int gcd = 0;
 		for (int i = lowest; i >= 1; i--) {
@@ -30,12 +25,12 @@ public class GCDofTwoNumbers {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter the first number: ");
-		int firstNumber = sc.nextInt();
+		int n1 = sc.nextInt();
 
 		System.out.print("Enter the second number: ");
-		int secondNumber = sc.nextInt();
+		int n2 = sc.nextInt();
 
-		System.out.println(findGCD(firstNumber, secondNumber));
+		System.out.println("GCD of " + n1 + " and " + n2 + " is: " +findGCD(n1, n2));
 
 		sc.close();
 	}
