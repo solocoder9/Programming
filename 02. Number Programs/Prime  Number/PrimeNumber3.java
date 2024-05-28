@@ -5,7 +5,7 @@ public class PrimeNumber3 {
     // Time Complexity: O(sqrt(n)), where n is the input number
     // Space Complexity: O(1)
     // Method to check if the number is prime of not
-    static boolean checkPrime(int n) {
+    public static boolean checkPrime(int n) {
 
         if (n <= 1) {
             return false;
