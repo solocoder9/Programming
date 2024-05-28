@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PrimeNumber3 {
-    
+
     // Time Complexity: O(sqrt(n)), where n is the input number
     // Space Complexity: O(1)
     // Method to check if the number is prime of not
@@ -21,6 +21,7 @@ public class PrimeNumber3 {
         return (count == 0);
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -29,8 +30,7 @@ public class PrimeNumber3 {
 
         if (checkPrime(n)) {
             System.out.println("Prime number");
-        }
-        else {
+        } else {
             System.out.println("Not a Prime number");
         }
 
