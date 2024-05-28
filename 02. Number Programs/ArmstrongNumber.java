@@ -6,45 +6,43 @@
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); 
-    
-        // Input
-        System.out.print("Enter any number: ");
-        int number = sc.nextInt();
 
-        int temp = number;
-        int count = 0;
+    // Method to check whether the number is armstrong or not
+	public static boolean checkArmstrong(int n) {
+		int temp = n;
+		int countDigit = 0;
 
-        // Count the number digits
-        while(temp > 0) {
-            temp = temp / 10;
-            count++;                
-        }
+		while (temp > 0) {
+			countDigit++;
+			temp /= 10;
+		}
 
-        temp = number; // Reset temp to the original number
-        int sum = 0;
+		temp = n; // Reset the temp variable
+		int sum = 0;
 
-        while(temp > 0) {
-            int digit = temp % 10;
-            int digitPower = 1;
+		while (temp > 0) {
+			int rem = temp % 10;
+			int remPower = 1;
 
-            // Calculate the power of the digit
-            for(int i = 1; i <= count; i++) {
-                digitPower *= digit;
-            }
+			for (int i = 0; i < countDigit; i++) {
+				remPower *= rem;
+			}
+			sum += remPower;
+			temp /= 10;
+		}
 
-            sum += digitPower;
-            temp /= 10;
-        }
+		return n == sum;
+	}
 
-        if(sum == number) {
-            System.out.println(number + " is an Armstrong number");
-        }
-        else {
-            System.out.println(number + " is not an Armstrong number");
-        }
+	// Driver code
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 
-        sc.close();
-    }
+		System.out.print("Enter any number: ");
+		int n = sc.nextInt();
+
+		System.out.println(checkArmstrong(n));
+
+		sc.close();
+	}
 }
