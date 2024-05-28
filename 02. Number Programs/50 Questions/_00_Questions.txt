@@ -91,8 +91,8 @@
 45.	WAJP to separate even and odd digits in a given number.
 46.	WAJP to check if a number is an Automorphic number.
 47.	WAJP to print Floyd's triangle.
-    Input: n = 5
-    Output: 
+•   Input: n = 5
+•   Output: 
 •   1 
 •   2 3 
 •   4 5 6 
