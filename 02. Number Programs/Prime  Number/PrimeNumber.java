@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class PrimeNumber {
-    
+
     // Time Complexity: O(n), where n is the input number
     // Space Complexity: O(1)
     // Method to check if the number is prime or not
@@ -32,8 +32,7 @@ public class PrimeNumber {
 
         if (checkPrime(n)) {
             System.out.println("Prime number");
-        }
-        else {
+        } else {
             System.out.println("Not a Prime number");
         }
 
