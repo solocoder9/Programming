@@ -7,7 +7,7 @@ public class PrimeNumber {
     // Time Complexity: O(n), where n is the input number
     // Space Complexity: O(1)
     // Method to check if the number is prime or not
-    static boolean checkPrime(int n) {
+    public static boolean checkPrime(int n) {
 
         if (n <= 1) {
             return false;
