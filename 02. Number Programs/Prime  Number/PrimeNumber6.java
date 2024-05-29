@@ -5,7 +5,7 @@ public class PrimeNumber6 {
     // Time Complexity: O(n log log n), where n is the input number
     // Space Complexity: O(n), where n is the input number
     // Method to check if the number is prime or not using Sieve of Eratosthenes
-    static boolean isPrime(int n) {
+    public static boolean isPrime(int n) {
         // If number is less than 2, it's not prime
         if (n < 2) {
             return false;
