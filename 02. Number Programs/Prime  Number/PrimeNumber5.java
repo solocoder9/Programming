@@ -5,7 +5,7 @@ public class PrimeNumber5 {
     // Time Complexity: O(sqrt(n)), where n is the input number
     // Space Complexity: O(1)
     // Method to check the number is prime or not (Most Optimized)
-    static boolean checkPrime(int n) {
+    public static boolean checkPrime(int n) {
         if (n <= 1) {
             return false;
         } else if (n <= 3) {
