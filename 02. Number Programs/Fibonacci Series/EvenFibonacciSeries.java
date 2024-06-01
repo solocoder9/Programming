@@ -1,20 +1,19 @@
 import java.util.Scanner;
 
 public class EvenFibonacciSeries {
-    
+
     // Method to print even fibonacci numbers
-    static void evenFibonacci(int n) {
+    public static void evenFibonacci(int n) {
 
         int a = 0;
         int b = 1;
         int c;
         int count = 1;
-        
 
         while (count <= n) {
-            if(a % 2 == 0 && a != 0) {
+            if (a % 2 == 0 && a != 0) {
                 System.out.print(a + " ");
-                count ++;
+                count++;
             }
             c = a + b;
             a = b;
