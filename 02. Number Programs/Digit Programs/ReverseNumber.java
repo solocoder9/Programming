@@ -15,24 +15,29 @@
 import java.util.Scanner;
 
 public class ReverseNumber {
-    
-    // Method to print reverse of number
-    static void printReverse(int number) {
 
-        while (number > 0) {
-            int rem = number % 10;
-            System.out.print(rem);
-            number /= 10;
+    // Method to reverse a number
+    public static int reverseNumber(int n) {
+
+        int reverse = 0;
+
+        while (n > 0) {
+            int rem = n % 10;
+            reverse = (reverse * 10) + rem;
+            n /= 10;
         }
+
+        return reverse;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter any number: ");
-        int number = sc.nextInt();
+        int n = sc.nextInt();
 
-        printReverse(number);
+        System.out.println("Reverse number of " + n + " is: " + reverseNumber(n));
 
         sc.close();
     }
