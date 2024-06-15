@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrintPrimeNumbers {
+public class PrintPrimeNumbers1toN {
 
     // Time Complexity: O(n * sqrt(n)), where n is the value of the range
     // Space Complexity: O(1)
