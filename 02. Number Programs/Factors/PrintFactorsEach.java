@@ -1,28 +1,28 @@
 import java.util.Scanner;
 
 public class PrintFactorsEach {
-    
+
     // Method to print factors of a number
-    static void factors(int n) {
-        
-        for(int i = 1; i <= n; i++) {
-            if(n % i == 0) {
+    public static void factors(int n) {
+
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
                 System.out.print(i + " ");
             }
         }
     }
 
     // Method to print factors of each numbers
-    static void printFactors(int range) {
-        
-        for(int i = 1; i <= range; i++) {
+    public static void printFactors(int range) {
+
+        for (int i = 1; i <= range; i++) {
             System.out.print(i + " --> ");
             factors(i);
             System.out.println();
         }
     }
 
-    // Main Method
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
