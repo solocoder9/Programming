@@ -2,28 +2,28 @@ import java.util.Scanner;
 
 public class Vowel {
     public static void display(char ch) {
-        switch(ch) {
-            case 'a' : {
+        switch (ch) {
+            case 'a': {
                 System.out.print("vowel");
                 break;
             }
-            case 'b' : {
+            case 'b': {
                 System.out.print("vowel");
                 break;
             }
-            case 'c' : {
+            case 'c': {
                 System.out.print("vowel");
                 break;
             }
-            case 'd' : {
+            case 'd': {
                 System.out.print("vowel");
                 break;
             }
-            case 'e' : {
+            case 'e': {
                 System.out.print("vowel");
                 break;
             }
-            default : {
+            default: {
                 System.out.print("consonants");
                 break;
             }
