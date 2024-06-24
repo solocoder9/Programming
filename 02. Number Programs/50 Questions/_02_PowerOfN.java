@@ -7,13 +7,13 @@ public class _02_PowerOfN {
     // Method to find the power of a number
     static int findPower(int n, int expo) {
 
-        if(expo == 0) {
+        if (expo == 0) {
             return 1;
         }
 
         int powerOfNumber = 1;
 
-        for(int i = 1; i <= expo; i++) {
+        for (int i = 1; i <= expo; i++) {
             powerOfNumber = powerOfNumber * n;
         }
 
@@ -34,5 +34,5 @@ public class _02_PowerOfN {
 
         sc.close();
     }
-    
+
 }
