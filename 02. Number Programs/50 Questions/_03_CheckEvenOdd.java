@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 public class _03_CheckEvenOdd {
-    
+
     // Method to check if the number is even or odd
     static boolean checkEvenOdd(int n) {
 
@@ -19,8 +19,7 @@ public class _03_CheckEvenOdd {
 
         if (checkEvenOdd(n)) {
             System.out.println("Even");
-        }
-        else {
+        } else {
             System.out.println("Odd");
         }
 
