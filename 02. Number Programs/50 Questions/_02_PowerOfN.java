@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _02_PowerOfN {
 
     // Method to find the power of a number
-    static int findPower(int n, int expo) {
+    public static int findPower(int n, int expo) {
 
         if (expo == 0) {
             return 1;
