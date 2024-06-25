@@ -3,10 +3,10 @@
 import java.util.Scanner;
 
 public class _05_ReverseNumber {
-    
+
     // Method to reverse a number
-    static int reverseNumber(int n) {
-        
+    public static int reverseNumber(int n) {
+
         int reverseNumber = 0;
 
         while (n > 0) {
