@@ -3,9 +3,9 @@
 import java.util.Scanner;
 
 public class _06_CheckLeapYear {
-    
+
     // Method to check if the year is leap or not
-    static boolean checkLeapYear(int year) {
+    public static boolean checkLeapYear(int year) {
 
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             return true;
@@ -14,8 +14,9 @@ public class _06_CheckLeapYear {
         return false;
     }
 
+    // Driver code
     public static void main(String[] args) {
-    
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the year: ");
@@ -23,8 +24,7 @@ public class _06_CheckLeapYear {
 
         if (checkLeapYear(year)) {
             System.out.println("Leap year");
-        }    
-        else {
+        } else {
             System.out.println("Not a leap year");
         }
 
