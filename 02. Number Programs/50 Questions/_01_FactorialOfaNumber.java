@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _01_FactorialOfaNumber {
 
     // Method to print factorial of a number
-    static void printFactorial(int n) {
+    public static void printFactorial(int n) {
 
         int factorial = 1;
 
