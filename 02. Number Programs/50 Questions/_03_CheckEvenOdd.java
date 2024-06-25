@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _03_CheckEvenOdd {
 
     // Method to check if the number is even or odd
-    static boolean checkEvenOdd(int n) {
+    public static boolean checkEvenOdd(int n) {
 
         return n % 2 == 0;
     }
