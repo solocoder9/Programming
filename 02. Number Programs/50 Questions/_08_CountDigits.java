@@ -3,10 +3,10 @@
 import java.util.Scanner;
 
 public class _08_CountDigits {
-    
+
     // Method to count the numer of digits a number
     public static int countDigits(int n) {
-        
+
         int countDigits = 0;
 
         while (n > 0) {
@@ -17,12 +17,13 @@ public class _08_CountDigits {
         return countDigits;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
-        
+
         System.out.println(countDigits(n));
 
         sc.close();
