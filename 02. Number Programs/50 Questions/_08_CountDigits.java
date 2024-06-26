@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _08_CountDigits {
     
     // Method to count the numer of digits a number
-    static int countDigits(int n) {
+    public static int countDigits(int n) {
         
         int countDigits = 0;
 
