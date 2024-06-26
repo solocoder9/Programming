@@ -3,9 +3,9 @@
 import java.util.Scanner;
 
 public class _07_PrintLeapYear {
-    
+
     // Method to check if the year is leap or not
-    static boolean checkLeapYear(int year) {
+    public static boolean checkLeapYear(int year) {
 
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
             return true;
@@ -15,17 +15,17 @@ public class _07_PrintLeapYear {
     }
 
     // Method to print leap year in given range
-    static void printLeapYear(int start, int end) {
+    public static void printLeapYear(int start, int end) {
 
         for (int i = start; i <= end; i++) {
-            if(checkLeapYear(i)) {
+            if (checkLeapYear(i)) {
                 System.out.print(i + " ");
             }
         }
     }
 
     public static void main(String[] args) {
-    
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the starting range: ");
