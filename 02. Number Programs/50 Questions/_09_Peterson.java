@@ -13,10 +13,10 @@
 import java.util.Scanner;
 
 public class _09_Peterson {
-   
+
     // Method to calculate the factorial of a number
-    static int calFactorial(int n) {
-        
+    public static int calFactorial(int n) {
+
         if (n < 0) {
             return 0;
         }
@@ -25,12 +25,12 @@ public class _09_Peterson {
         for (int i = 2; i <= n; i++) {
             factorial *= i;
         }
-        
+
         return factorial;
     }
 
     // Method to check sum of factorials of all digit is equal to number itself
-    static boolean checkPeter(int n) {
+    public static boolean checkPeter(int n) {
 
         int temp = n;
         int sumFactorial = 0;
@@ -44,16 +44,16 @@ public class _09_Peterson {
         return n == sumFactorial;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
 
-        if(checkPeter(n)) {
+        if (checkPeter(n)) {
             System.out.println("Peter");
-        }
-        else {
+        } else {
             System.out.println("Not Peter");
         }
 
