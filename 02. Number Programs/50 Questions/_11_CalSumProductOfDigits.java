@@ -16,12 +16,12 @@ public class _11_CalSumProductOfDigits {
         }
 
         return sum;
-    }   
-    
-    // Method to calsulate product of digits of a number
-    static int calProd(int n) {
+    }
 
-        int product = 1; 
+    // Method to calsulate product of digits of a number
+    public static int calProd(int n) {
+
+        int product = 1;
 
         while (n > 0) {
             int rem = n % 10;
@@ -32,6 +32,7 @@ public class _11_CalSumProductOfDigits {
         return product;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
