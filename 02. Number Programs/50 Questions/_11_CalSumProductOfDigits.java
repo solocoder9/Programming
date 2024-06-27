@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _11_CalSumProductOfDigits {
 
     // Method to calculate sum of digits of a number
-    static int calSum(int n) {
+    public static int calSum(int n) {
 
         int sum = 0;
 
