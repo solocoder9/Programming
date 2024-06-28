@@ -22,7 +22,7 @@ public class _13_Smith {
     }
 
     // Method to calculate the sum of digits of all prime factors of a number
-    static int sumPrimeFactorsDigits(int n) {
+    public static int sumPrimeFactorsDigits(int n) {
 
         int sumPrimeFactorsDigits = 0;
 
