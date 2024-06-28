@@ -41,7 +41,7 @@ public class _13_Smith {
     }
 
     // Method to check if the numbe is Smith number or not
-    static boolean checkSmith(int n) {
+    public static boolean checkSmith(int n) {
 
         return sumDigits(n) == sumPrimeFactorsDigits(n);
     }
