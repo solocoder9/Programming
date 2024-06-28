@@ -3,9 +3,9 @@
 import java.util.Scanner;
 
 public class _15_PrintEvenNumber {
-    
+
     // Method to print even numbers with in the range
-    static void printEven(int n) {
+    public static void printEven(int n) {
 
         for (int i = 1; i <= n; i++) {
             if (i % 2 == 0) {
