@@ -3,11 +3,11 @@
 import java.util.Scanner;
 
 public class _16_PrintNevenNumbers {
-    
+
     // Method to print n even numbers
     public static void printNeven(int n) {
 
-        int even = 2; 
+        int even = 2;
 
         for (int i = 1; i <= n; i++) {
             System.out.print(even + " ");
@@ -15,6 +15,7 @@ public class _16_PrintNevenNumbers {
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
