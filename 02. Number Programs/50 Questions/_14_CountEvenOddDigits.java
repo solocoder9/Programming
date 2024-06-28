@@ -26,6 +26,7 @@ public class _14_CountEvenOddDigits {
         System.out.println(oddDigits + " odd digits");
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
