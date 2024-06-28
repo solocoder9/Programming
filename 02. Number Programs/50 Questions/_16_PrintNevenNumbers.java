@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _16_PrintNevenNumbers {
     
     // Method to print n even numbers
-    static void printNeven(int n) {
+    public static void printNeven(int n) {
 
         int even = 2; 
 
