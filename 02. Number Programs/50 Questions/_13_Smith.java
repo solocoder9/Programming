@@ -46,6 +46,7 @@ public class _13_Smith {
         return sumDigits(n) == sumPrimeFactorsDigits(n);
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

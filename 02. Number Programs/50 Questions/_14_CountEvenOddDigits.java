@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _14_CountEvenOddDigits {
 
     // Method to count even and odd digits of a number
-    static void countDigits(int n) {
+    public static void countDigits(int n) {
 
         int evenDigits = 0;
         int oddDigits = 0;
@@ -15,8 +15,7 @@ public class _14_CountEvenOddDigits {
             if (rem != 0) {
                 if (rem % 2 == 0) {
                     evenDigits++;
-                }
-                else {
+                } else {
                     oddDigits++;
                 }
             }
