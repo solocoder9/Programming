@@ -27,6 +27,7 @@ public class _12_SpyNumber {
         return sumOfDigits == productOfDigits;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
