@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class _12_SpyNumber {
 
     // Method to check if the number is spy or not
-    static boolean checkSpy(int n) {
+    public static boolean checkSpy(int n) {
 
         if (n < 0) {
             return false;
@@ -35,8 +35,7 @@ public class _12_SpyNumber {
 
         if (checkSpy(n)) {
             System.out.println("Spy number");
-        }
-        else {
+        } else {
             System.out.println("Not a spy number");
         }
 
