@@ -29,7 +29,7 @@ public class _19_PrintNprimeNumbers {
     }
 
     // Method to print n prime numbers 
-    static void printPrime(int n) {
+    public static void printPrime(int n) {
 
         int count = 0;
         int number = 2;
