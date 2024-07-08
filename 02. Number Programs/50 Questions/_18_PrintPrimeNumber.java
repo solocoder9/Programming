@@ -27,7 +27,7 @@ public class _18_PrintPrimeNumber {
     }
 
     // Method to print prime numbers within given range
-    static void printPrime(int n) {
+    public static void printPrime(int n) {
 
         for (int i = 2; i <= n; i++) {
             if (checkPrime(i)) {
