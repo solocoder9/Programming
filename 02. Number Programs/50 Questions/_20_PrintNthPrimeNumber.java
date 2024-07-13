@@ -27,7 +27,7 @@ public class _20_PrintNthPrimeNumber {
     }
 
     // Method to print nth prime number
-    static void printNthPrime(int n) {
+    public static void printNthPrime(int n) {
 
         int count = 0;
         int number = 2; 
