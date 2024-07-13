@@ -11,15 +11,13 @@ public class _19_PrintNprimeNumbers {
 
         if (n <= 1) {
             return false;
-        }
-        else if (n <= 3) {
+        } else if (n <= 3) {
             return true;
-        }
-        else if(n % 2 == 0 || n % 3 == 0) {
+        } else if (n % 2 == 0 || n % 3 == 0) {
             return false;
         }
 
-        for (int i = 5; i <= Math.sqrt(n); i +=6) {
+        for (int i = 5; i <= Math.sqrt(n); i += 6) {
             if (n % i == 0 || n % (i + 2) == 0) {
                 return false;
             }
@@ -28,14 +26,14 @@ public class _19_PrintNprimeNumbers {
         return true;
     }
 
-    // Method to print n prime numbers 
+    // Method to print n prime numbers
     public static void printPrime(int n) {
 
         int count = 0;
         int number = 2;
 
         while (count < n) {
-            if(checkPrime(number)) {
+            if (checkPrime(number)) {
                 count++;
                 System.out.print(number + " ");
             }
@@ -43,6 +41,7 @@ public class _19_PrintNprimeNumbers {
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
