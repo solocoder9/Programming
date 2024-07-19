@@ -29,7 +29,7 @@ public class _21_OddNonPrimeNumber {
     }
 
     // Method to print n odd not prime number
-    static void printOddNonPrime(int n) {
+    public static void printOddNonPrime(int n) {
 
         int count = 0;
         int number = 9;
