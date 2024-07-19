@@ -4,17 +4,15 @@
 import java.util.Scanner;
 
 public class _22_CheckPrimeNumber {
-    
+
     // Method to check if the number is prime or not
     public static boolean checkPrime(int n) {
 
         if (n <= 1) {
             return false;
-        }
-        else if (n <= 3) {
+        } else if (n <= 3) {
             return true;
-        }
-        else if (n % 2 == 0 || n % 3 == 0) {
+        } else if (n % 2 == 0 || n % 3 == 0) {
             return false;
         }
 
@@ -27,6 +25,7 @@ public class _22_CheckPrimeNumber {
         return true;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -35,8 +34,7 @@ public class _22_CheckPrimeNumber {
 
         if (checkPrime(n)) {
             System.out.println("Prime number");
-        }
-        else {
+        } else {
             System.out.println("Not prime number");
         }
 
