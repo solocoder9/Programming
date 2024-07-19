@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class _23_CheckArmstrongNumber {
     
     // Method to check if the number is armstrong or not
-    static boolean checkArmstrong(int n) {
+    public static boolean checkArmstrong(int n) {
 
         int temp = n;
         int countDigits = 0;
