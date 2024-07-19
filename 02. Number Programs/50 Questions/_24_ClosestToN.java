@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class _24_ClosestToN {
     
     // Method to find out closest
-    static int findClosest(int N, int M) {
+    public static int findClosest(int N, int M) {
 
         if(N <= 0 || M <= 0) {
             System.out.print("Invalid input");
