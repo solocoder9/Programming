@@ -9,7 +9,7 @@
 import java.util.Scanner;
 
 public class _23_CheckArmstrongNumber {
-    
+
     // Method to check if the number is armstrong or not
     public static boolean checkArmstrong(int n) {
 
@@ -27,7 +27,7 @@ public class _23_CheckArmstrongNumber {
         while (temp > 0) {
             int rem = temp % 10;
             int digitPower = 1;
-            for(int i = 1; i <= countDigits; i++) {
+            for (int i = 1; i <= countDigits; i++) {
                 digitPower = digitPower * rem;
             }
             sumDigitPower += digitPower;
@@ -37,16 +37,16 @@ public class _23_CheckArmstrongNumber {
         return n == sumDigitPower;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
-        if(checkArmstrong(n)) {
+        if (checkArmstrong(n)) {
             System.out.println("Yes");
-        }
-        else {
+        } else {
             System.out.println("No");
         }
 
