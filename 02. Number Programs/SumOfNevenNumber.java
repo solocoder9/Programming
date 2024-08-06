@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class SumOfNevenNumber {
 
     // Method to print sum of n even number
@@ -11,7 +12,7 @@ public class SumOfNevenNumber {
         System.out.println("Sum of n even number is: " + sum);
     }
 
-    // Driver method
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
