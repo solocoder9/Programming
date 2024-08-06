@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TribonacciSeries {
     
     // Method to print Tribonacci series
-    static void tribonacci(int n) {
+    public static void tribonacci(int n) {
         
         int a = 0;
         int b = 0;
