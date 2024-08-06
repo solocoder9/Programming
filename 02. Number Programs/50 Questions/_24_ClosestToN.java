@@ -14,16 +14,16 @@
 import java.util.Scanner;
 
 public class _24_ClosestToN {
-    
+
     // Method to find out closest
     public static int findClosest(int N, int M) {
 
-        if(N <= 0 || M <= 0) {
+        if (N <= 0 || M <= 0) {
             System.out.print("Invalid input");
         }
 
         int i;
-        for(i = N; i >= 1; i--) {
+        for (i = N; i >= 1; i--) {
             if (i % M == 0) {
                 break;
             }
@@ -32,6 +32,7 @@ public class _24_ClosestToN {
         return i;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
