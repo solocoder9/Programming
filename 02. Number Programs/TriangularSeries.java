@@ -3,12 +3,12 @@
 import java.util.Scanner;
 
 public class TriangularSeries {
-    
+
     // Method to print triangular series
     public static void printTri(int n) {
 
         int temp = 0;
-        for(int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
             temp += i;
             System.out.print(temp + " ");
         }
