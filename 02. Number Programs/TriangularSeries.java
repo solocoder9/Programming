@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TriangularSeries {
     
     // Method to print triangular series
-    static void printTri(int n) {
+    public static void printTri(int n) {
 
         int temp = 0;
         for(int i = 1; i <= n; i++) {
