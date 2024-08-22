@@ -2,15 +2,14 @@ import java.util.Scanner;
 
 public class Less20 {
     static boolean less20(int n) {
-        if((n+1) % 20 == 0 || (n+2) % 20 == 0) {
+        if ((n + 1) % 20 == 0 || (n + 2) % 20 == 0) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }
-    
-    //Driver code
+
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
