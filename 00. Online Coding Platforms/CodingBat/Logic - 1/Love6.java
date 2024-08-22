@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class Love6 {
-    static boolean love6(int a, int b) {
+    public static boolean love6(int a, int b) {
         int sum = a + b;
         int diff = Math.abs(a - b);
 
-        if(a == 6 || b == 6 || sum == 6 || diff == 6) {
+        if (a == 6 || b == 6 || sum == 6 || diff == 6) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
-    }  
-    
+    }
+
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
