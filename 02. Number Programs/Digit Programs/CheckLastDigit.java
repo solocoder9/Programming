@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class CheckLastDigit {
-    
+
     // Method to check the last digit of a number is even or odd
-    static void checkLastDigit(int number) {
-        
-        if((number % 10) % 2 == 0) {
+    public static void checkLastDigit(int number) {
+
+        if ((number % 10) % 2 == 0) {
             System.out.println("Last digit is an even number");
-        }
-        else {
+        } else {
             System.out.println("Last digit is an odd number");
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
