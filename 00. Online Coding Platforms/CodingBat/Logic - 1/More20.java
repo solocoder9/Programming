@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class More20 {
-    static boolean more20(int n) {
+    public static boolean more20(int n) {
         if((n-1) % 20 == 0 || (n-2) % 20 == 0) {
             return true;
         }
