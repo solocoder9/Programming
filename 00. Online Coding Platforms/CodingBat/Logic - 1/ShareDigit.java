@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ShareDigit {
-    static boolean shareDigit(int a, int b) {
+    public static boolean shareDigit(int a, int b) {
         if(((a >= 10 && a <= 99) && (b >= 10 && b <= 99)) && ((a/10 == b/10 || a/10 == b%10 || a%10 == b/10 || a%10 == b%10))) {
             return true;
         }
