@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TeenSum {
-    static int teenSum(int a, int b) {
+    public static int teenSum(int a, int b) {
         if((a >= 13 && a <= 19) || (b >= 13 && b <= 19)) {
             return 19;
         }
