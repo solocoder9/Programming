@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
 public class SortaSum {
-    
+
     public static int sortaSum(int a, int b) {
         int sum = a + b;
-        if(sum >= 10 && sum <= 19) {
+        if (sum >= 10 && sum <= 19) {
             return 20;
-        }
-        else {
+        } else {
             return sum;
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
