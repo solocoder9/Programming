@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class TeenSum {
     public static int teenSum(int a, int b) {
-        if((a >= 13 && a <= 19) || (b >= 13 && b <= 19)) {
+        if ((a >= 13 && a <= 19) || (b >= 13 && b <= 19)) {
             return 19;
+        } else {
+            return a + b;
         }
-        else {
-            return a+b;
-        }
-    } 
-    
+    }
+
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
