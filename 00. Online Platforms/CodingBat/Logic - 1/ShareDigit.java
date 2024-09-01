@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class ShareDigit {
     public static boolean shareDigit(int a, int b) {
-        if(((a >= 10 && a <= 99) && (b >= 10 && b <= 99)) && ((a/10 == b/10 || a/10 == b%10 || a%10 == b/10 || a%10 == b%10))) {
+        if (((a >= 10 && a <= 99) && (b >= 10 && b <= 99))
+                && ((a / 10 == b / 10 || a / 10 == b % 10 || a % 10 == b / 10 || a % 10 == b % 10))) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
-    }  
-    
+    }
+
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
