@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SpecialEleven {
     public static boolean specialEleven(int n) {
-        if(n % 11 == 0 || --n % 11 == 1) {
+        if (n % 11 == 0 || --n % 11 == 1) {
             return true;
         }
 
@@ -11,6 +11,7 @@ public class SpecialEleven {
         }
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,5 +23,3 @@ public class SpecialEleven {
         sc.close();
     }
 }
-
-
