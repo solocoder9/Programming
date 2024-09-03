@@ -23,17 +23,17 @@ public class Pattern10 {
         int n = sc.nextInt();
 
         for (int i = 1; i <= 2 * n; i++) {
-            
+
             int temp = 0;
 
-            // for spaces
+            // for printing spaces
             int target = i <= n ? n - i : i - (n + 1);
             for (int j = 1; j <= target; j++) {
                 System.out.print(" ");
                 temp = j;
             }
 
-            // for stars
+            // for printing stars
             int target2 = i <= n ? 2 * i - 1 : (3 * n) - temp - i;
             for (int k = 1; k <= target2; k++) {
                 System.out.print("*");
