@@ -4,7 +4,7 @@ public class PrintNfibonacciNumbers {
     
     // Method to print n Fibonacci number starting from 1
     static void printfibo(int n) {
-        int a = 1; 
+        int a = 0; 
         int b = 1;
 
         for(int i = 1; i <= n; i++) {
