@@ -15,7 +15,7 @@
 
 import java.util.Scanner;
 
-public class Pattern10 {
+public class Pattern10a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
