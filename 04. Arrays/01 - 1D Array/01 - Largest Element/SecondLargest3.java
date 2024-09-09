@@ -1,8 +1,6 @@
 // Java program to find the second largest element in an array
 // More Optimized approach
 
-package StriverArrayPlaylist;
-
 import java.util.Scanner;
 
 public class SecondLargest3 {
