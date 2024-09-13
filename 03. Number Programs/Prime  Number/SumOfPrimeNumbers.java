@@ -9,7 +9,7 @@ public class SumOfPrimeNumbers {
     // Time Complexity: O(sqrt(n)), where n is the input number
     // Space Complexity: O(1)
     public static boolean checkPrime(int n) {
-        
+
         if (n <= 1) {
             return false;
         } else if (n <= 3) {
@@ -30,7 +30,7 @@ public class SumOfPrimeNumbers {
     // Method to calculate sum of prime numbers in a given range
     // Time Complexity: O(n * sqrt(n)), where n is the value of the range
     // Space Complexity: O(1)
-    static int sumOfPrimeNumbers(int range) {
+    public static int sumOfPrimeNumbers(int range) {
 
         int sumOfPrimes = 0;
 
