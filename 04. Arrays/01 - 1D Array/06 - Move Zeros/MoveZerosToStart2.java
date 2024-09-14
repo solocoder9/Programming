@@ -1,5 +1,3 @@
-package Array.MoveZeros;
-
 import java.util.Scanner;
 
 public class MoveZerosToStart2 {
