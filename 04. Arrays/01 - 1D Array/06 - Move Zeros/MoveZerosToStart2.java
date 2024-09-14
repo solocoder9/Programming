@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ZerosMoveToFirst2 {
+public class MoveZerosToStart2 {
     
     // Method to move zeros to the beggining 
     static int[] moveZero(int[] arr, int size) {
