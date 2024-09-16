@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class SumOfArrayElements {
-    
+
     // Method to calculate the sum of all the elements of an array
-    static int printArray(int[] arr, int size) {
+    public static int printArray(int[] arr, int size) {
 
         int sum = 0;
 
-        for(int i = 0; i <= arr.length - 1; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             sum += arr[i];
         }
 
@@ -23,7 +23,7 @@ public class SumOfArrayElements {
         int[] arr = new int[size];
 
         // Input
-        for (int i = 0; i <= arr.length -1; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             arr[i] = sc.nextInt();
         }
 
