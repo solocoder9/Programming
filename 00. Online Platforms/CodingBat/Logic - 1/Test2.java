@@ -6,8 +6,7 @@ public class Test2 {
         int dif = Math.abs(a - b);
         if ((a == 6 || b == 6) || (sum == 6 || dif == 6)) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }
@@ -16,15 +15,14 @@ public class Test2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the value of a: ");
-        int  a = sc.nextInt();
+        int a = sc.nextInt();
 
         System.out.print("Enter the value of b: ");
         int b = sc.nextInt();
 
         System.out.print(find(a, b));
-        
+
         sc.close();
 
-        
     }
 }
