@@ -1,25 +1,25 @@
 import java.util.Scanner;
 
 public class BlackJack {
-    
-    static int blackjack(int a, int b) {
- 
-        if(a > 0 && b > 0) {
-            if(a <= 21 && b > 21) {
+
+    public static int blackjack(int a, int b) {
+
+        if (a > 0 && b > 0) {
+            if (a <= 21 && b > 21) {
                 return a;
             }
-            if(b <= 21 && a > 21) {
+            if (b <= 21 && a > 21) {
                 return b;
             }
-            if(((21 - a) < (21 - b)) && (a <= 21)) {
+            if (((21 - a) < (21 - b)) && (a <= 21)) {
                 return a;
             }
-            if(((21 - b) < (21 - a)) && (b <= 21)) {
+            if (((21 - b) < (21 - a)) && (b <= 21)) {
                 return b;
             }
-            
+
         }
-        if(a > 21 && b > 21) {
+        if (a > 21 && b > 21) {
             return 0;
         }
 
