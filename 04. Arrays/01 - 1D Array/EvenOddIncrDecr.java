@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class EvenOddIncrDecr {
-    
+
     // Method to sort even elements to the left and odd elementes to the right
-    static int[] sortArray(int[] arr, int size) {
+    public static int[] sortArray(int[] arr, int size) {
 
         // move even numbers to the begining
         int start = 0;
@@ -13,7 +13,7 @@ public class EvenOddIncrDecr {
                     int temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
-                    start = j + 1;;
+                    start = j + 1;
                     break;
                 }
             }
@@ -21,16 +21,16 @@ public class EvenOddIncrDecr {
 
         // sort even numbers in ascending and odd numbers in descending order
         for (int i = 0; i < arr.length; i++) {
-            
+
             // Sorting even number in ascending order
             if (arr[i] % 2 == 0) {
                 for (int j = 0; j < arr.length - 1; j++) {
-                    if (arr[j] % 2 == 0 && arr[j+1] % 2 == 0) {
-                        if (arr[j] > arr[j+1]) {
+                    if (arr[j] % 2 == 0 && arr[j + 1] % 2 == 0) {
+                        if (arr[j] > arr[j + 1]) {
                             // Swap
                             int temp = arr[j];
-                            arr[j] = arr[j+1];
-                            arr[j+1] = temp;
+                            arr[j] = arr[j + 1];
+                            arr[j + 1] = temp;
                         }
                     }
                 }
@@ -38,18 +38,18 @@ public class EvenOddIncrDecr {
             // Sorting odd numbers in descengin order
             else {
                 for (int j = 0; j < arr.length - 1; j++) {
-                    if (arr[j] % 2 != 0 && arr[j+1] % 2 != 0) {
-                        if (arr[j] < arr[j+1]) {
+                    if (arr[j] % 2 != 0 && arr[j + 1] % 2 != 0) {
+                        if (arr[j] < arr[j + 1]) {
                             // Swap
                             int temp = arr[j];
-                            arr[j] = arr[j+1];
-                            arr[j+1] = temp;
+                            arr[j] = arr[j + 1];
+                            arr[j + 1] = temp;
                         }
                     }
                 }
 
             }
-    
+
         }
 
         return arr;
