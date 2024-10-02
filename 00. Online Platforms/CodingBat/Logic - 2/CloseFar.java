@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CloseFar {
     
-    static boolean closeFar(int a, int b, int c) {
+    public static boolean closeFar(int a, int b, int c) {
         if(((Math.abs(b - a) <= 1) || (Math.abs(c - a) <= 1))) {
 
             if((Math.abs(b - a) <= 1) && ((Math.abs(a - c) >= 2) && Math.abs(b - c) >= 2)) {
@@ -17,6 +17,7 @@ public class CloseFar {
         return false;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
