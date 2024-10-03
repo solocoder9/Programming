@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BlackJack2 {
     
-    static int blackjack(int a, int b) {
+    public static int blackjack(int a, int b) {
  
         if(a > 21 && b > 21) {
             return 0;
