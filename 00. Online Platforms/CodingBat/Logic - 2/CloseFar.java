@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class CloseFar {
-    
-    public static boolean closeFar(int a, int b, int c) {
-        if(((Math.abs(b - a) <= 1) || (Math.abs(c - a) <= 1))) {
 
-            if((Math.abs(b - a) <= 1) && ((Math.abs(a - c) >= 2) && Math.abs(b - c) >= 2)) {
+    public static boolean closeFar(int a, int b, int c) {
+        if (((Math.abs(b - a) <= 1) || (Math.abs(c - a) <= 1))) {
+
+            if ((Math.abs(b - a) <= 1) && ((Math.abs(a - c) >= 2) && Math.abs(b - c) >= 2)) {
                 return true;
             }
-            
-            if((Math.abs(c - a) <= 1) && ((Math.abs(a - b) >= 2) && Math.abs(b - c) >= 2)) {
+
+            if ((Math.abs(c - a) <= 1) && ((Math.abs(a - b) >= 2) && Math.abs(b - c) >= 2)) {
                 return true;
             }
-        } 
+        }
 
         return false;
     }
@@ -20,7 +20,7 @@ public class CloseFar {
     // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.print("Enter the value of a: ");
         int a = sc.nextInt();
 
