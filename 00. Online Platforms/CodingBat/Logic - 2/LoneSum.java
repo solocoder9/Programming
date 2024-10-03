@@ -2,22 +2,19 @@ import java.util.Scanner;
 
 public class LoneSum {
 
-    // Method to return sum 
+    // Method to return sum
     static int loneSum(int a, int b, int c) {
-        if(a == b && a == c) {
+        if (a == b && a == c) {
             a = 0;
             b = 0;
             c = 0;
-        }
-        else if(a == b) {
+        } else if (a == b) {
             a = 0;
             b = 0;
-        }
-        else if(a == c) {
+        } else if (a == c) {
             a = 0;
             c = 0;
-        }
-        else if(b == c) {
+        } else if (b == c) {
             b = 0;
             c = 0;
         }
@@ -27,6 +24,7 @@ public class LoneSum {
         return sum;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
