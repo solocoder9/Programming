@@ -1,22 +1,23 @@
 import java.util.Scanner;
 
 public class BlackJack2 {
-    
+
     public static int blackjack(int a, int b) {
- 
-        if(a > 21 && b > 21) {
+
+        if (a > 21 && b > 21) {
             return 0;
         }
-        if(a <= 21 && ((b > 21) || (21 - a) < (21 - b))) {
+        if (a <= 21 && ((b > 21) || (21 - a) < (21 - b))) {
             return a;
         }
-        if(b <= 21 && ((a > 21) || (21 - b) < (21 - a))) {
+        if (b <= 21 && ((a > 21) || (21 - b) < (21 - a))) {
             return b;
         }
 
         return 0;
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
