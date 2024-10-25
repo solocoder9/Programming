@@ -5,7 +5,7 @@ public class RemoveDuplicates {
 	// Method to remove duplicates from a sorted array
     // Time Complexity: O(n)
     // Space Complexity: O(1)
-	public static int removeDuplictes(int[] arr) {
+	public static int removeDuplicates(int[] arr) {
 		int lastUniqueElement = 0;
 
 		for (int i = 1; i < arr.length; i++) {
@@ -34,7 +34,7 @@ public class RemoveDuplicates {
 		}
 
 		// Remove duplicates and print the array
-		int newSize = removeDuplictes(arr);
+		int newSize = removeDuplicates(arr);
 		System.out.print("After removing the duplicates: ");
 		for(int i = 0; i < newSize; i++) {
 			System.out.print(arr[i] + " ");
