@@ -34,7 +34,7 @@ public class Vowel {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter any alphabate: ");
+        System.out.print("Enter any alphabet: ");
         char ch = sc.next().charAt(0);
 
         display(ch);
