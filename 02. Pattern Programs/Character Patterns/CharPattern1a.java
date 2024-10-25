@@ -14,7 +14,7 @@ public class CharPattern1a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the valud of n: ");
+        System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
         int letter = 65; // ASCII value of A is 65
