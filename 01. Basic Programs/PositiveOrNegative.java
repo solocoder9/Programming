@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PositiveOrNegetive {
+class PositiveOrNegative {
     public static void checkNumber(int number) {
         if(number > 0) {
             System.out.println(number + " is a positive number");
