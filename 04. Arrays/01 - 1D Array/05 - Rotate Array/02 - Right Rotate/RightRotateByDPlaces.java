@@ -54,7 +54,7 @@ public class RightRotateByDPlaces {
 		rightRotateByD(arr, d);
 
 		// Print the rotated array
-		System.out.print("Aarray after rotation: ");
+		System.out.print("Array after rotation: ");
 		printArray(arr);
 
 		sc.close();
