@@ -8,7 +8,7 @@ public class SwapTwoNumbers2 {
         System.out.print("Enter the value of b: ");
         int b = sc.nextInt();
 
-        // Swaping two numbers without using a third variable
+        // Swapping two numbers without using a third variable
         a = a + b;
         b = a - b;
         a = a - b;
