@@ -8,7 +8,7 @@ public class SwapTwoNumbers {
         System.out.print("Enter the value of b: ");
         int b = sc.nextInt();
 
-        // swaping two numbers using a temporary variable
+        // Swapping two numbers using a temporary variable
         int temp = a;
         a = b;
         b = temp;
