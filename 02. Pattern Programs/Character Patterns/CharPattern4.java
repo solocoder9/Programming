@@ -24,7 +24,7 @@ public class CharPattern4 {
                 System.out.print(" ");
             }
 
-            // Print alphabates
+            // Print alphabets
             char ch = 'A';
             int breakpoint = ((2 * i - 1)/2);
             for(int k = 1; k <= 2 * i - 1; k++) {
