@@ -19,7 +19,7 @@ public class A_Pattern {
 
         for(int i = 1; i <= n; i++) {
 
-            // Pirnt spaces
+            // Print spaces
             for(int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
