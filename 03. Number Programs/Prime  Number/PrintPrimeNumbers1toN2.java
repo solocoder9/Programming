@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class PrintPrimeNumbers1toN2 {
 
     // Method to print prime numbers within a range
-    // Time Complexity: O(n log log n)
+    // Time Complexity: O(n^2)
     // Space Complexity: O(n)
     public static void printPrime(int n) {
 
