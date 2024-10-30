@@ -8,7 +8,7 @@
  * Output: 54123
  * 
  * Example 3: - Rotate the number by -2 
- * Ouptut: 34512
+ * Output: 34512
  */
 
 import java.util.Scanner;
