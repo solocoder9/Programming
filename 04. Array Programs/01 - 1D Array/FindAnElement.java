@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class LinearSearch {
+public class FindAnElement {
 
-	// Method to perform linear search
-	public static int searchElement(int[] arr, int element) {
+	// Method to find an element in an array using linear search
+	public static int findElement(int[] arr, int element) {
+
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == element) {
 				return i;
@@ -18,9 +19,9 @@ public class LinearSearch {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter the size of the array: ");
-		int size = sc.nextInt();
+		int n = sc.nextInt();
 
-		int[] arr = new int[size];
+		int[] arr = new int[n];
 
 		// Input elements
 		System.out.print("Enter elements of the array: ");
@@ -30,14 +31,9 @@ public class LinearSearch {
 
 		System.out.print("Enter the element to search: ");
 		int element = sc.nextInt();
-		int elementIndex = searchElement(arr, element);
 
 		// Display the result
-		if (elementIndex != -1) {
-			System.out.println("Element found at index number: " + elementIndex);
-		} else {
-			System.out.println("Element not found in the array.");
-		}
+		System.out.println("Element found at index number: " + findElement(arr, element));
 
 		sc.close();
 	}
