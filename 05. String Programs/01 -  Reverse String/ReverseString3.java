@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseString2 {
+public class ReverseString3 {
     
     // Method to reverse a string using a two-pointer approach
     // Time Complexity: O(n)
