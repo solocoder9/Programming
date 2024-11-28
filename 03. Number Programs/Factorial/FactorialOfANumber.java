@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class FactorialOfaNumber {
+public class FactorialOfANumber {
 
 	// Method to find the factorial of a given number
 	public static long factorial(int n) {
