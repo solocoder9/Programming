@@ -16,9 +16,10 @@ public class FactorialOfANumber2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
+		System.out.print("Enter any number: ");
 		int n = sc.nextInt();
 
-		System.out.println("Factorial is: " + factorial(n));
+		System.out.println("Factorial of " + n + " is: " + factorial(n));
 		
 		sc.close();
 	}
