@@ -9,7 +9,7 @@ public class SwapTwoNumbers3 {
 		System.out.print("Enter the value of b: ");
 		int b = sc.nextInt();
 
-		// Method to swap two numbers using a XOR operator
+		// Swap two numbers using a XOR operator
 		a = a ^ b;
 		b = a ^ b;
 		a = a ^ b;
