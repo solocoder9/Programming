@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class LongestSubarraySumK2 {
 
 	// Method to find the longest subarray with sum k
-    // Time Complexity: O(n^2)
-    // Space Complexity: O(1)
+	// Time Complexity: O(n^2)
+	// Space Complexity: O(1)
 	public static int longestSubarr(int[] arr, int k) {
 
 		int longestSubLen = 0;
