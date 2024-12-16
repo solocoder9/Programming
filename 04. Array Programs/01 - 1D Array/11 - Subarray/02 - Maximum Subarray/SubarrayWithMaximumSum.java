@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 public class SubarrayWithMaximumSum {
-	
-	// Method to find and print the subarray with the largest sum using Kadane's Algorithm
+
+	// Method to find and print the subarray with the largest sum using Kadane's
+	// Algorithm
 	// Time Complexity: O(n)
 	// Space Complexity: O(1)
 	public static void printMaxSubArray(int[] arr) {
-		
-		int maxSum = arr[0]; 
+
+		int maxSum = arr[0];
 		int currentSum = arr[0];
 		int start = 0, end = 0, tempStart = 0; // Indices for the subarray
 
 		for (int i = 1; i < arr.length; i++) {
-			
+
 			// Update the current subarray sum by including the current element
 			if (arr[i] > currentSum + arr[i]) {
 				currentSum = arr[i]; // Start a new subarray
@@ -34,7 +35,7 @@ public class SubarrayWithMaximumSum {
 		for (int i = start; i <= end; i++) {
 			System.out.print(arr[i] + " ");
 		}
-		
+
 	}
 
 	// Driver code
