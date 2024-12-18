@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FindAnElement {
 
-	// Method to find an element in an array using linear search
+	// Method to find an element in an array, using linear search
 	public static int findElement(int[] arr, int element) {
 
 		for (int i = 0; i < arr.length; i++) {
