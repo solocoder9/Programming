@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class SelectionSort {
-    
+
     // Method to sort an array using selection sort
-    static int[] selectionSort(int[] arr, int size) {
+    public static int[] selectionSort(int[] arr, int size) {
 
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j < arr.length; j++) {
