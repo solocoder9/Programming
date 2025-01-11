@@ -41,8 +41,9 @@ public class ReverseAnArray2 {
         }
         
         // Reverse and print the array
+        reverseArray(arr);
         System.out.print("Reversed array: ");
-        printArray(reverseArray(arr));
+        printArray(arr);
         
         sc.close();
     }
