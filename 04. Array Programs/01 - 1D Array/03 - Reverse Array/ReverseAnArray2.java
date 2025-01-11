@@ -5,7 +5,7 @@ public class ReverseAnArray2 {
     // Method to reverse an array using two-pointer approach
     // Time Complexity: O(n)
     // Space Complexity: O(1)
-    public static int[] reverseArray(int[] arr) {
+    public static void reverseArray(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
         
@@ -16,8 +16,6 @@ public class ReverseAnArray2 {
             start++;
             end--;
         }
-        
-        return arr;
     }
 
     // Method to print array elements
