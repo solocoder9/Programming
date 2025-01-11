@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class RemoveDuplicates {
 
 	// Method to remove duplicates from a sorted array
-    // Time Complexity: O(n)
-    // Space Complexity: O(1)
+	// Time Complexity: O(n)
+	// Space Complexity: O(1)
 	public static int removeDuplicates(int[] arr) {
 		int lastUniqueElement = 0;
 
@@ -15,7 +15,7 @@ public class RemoveDuplicates {
 			}
 		}
 
-		return lastUniqueElement + 1; 
+		return lastUniqueElement + 1;
 	}
 
 	// Driver code
@@ -36,7 +36,7 @@ public class RemoveDuplicates {
 		// Remove duplicates and print the array
 		int newSize = removeDuplicates(arr);
 		System.out.print("After removing the duplicates: ");
-		for(int i = 0; i < newSize; i++) {
+		for (int i = 0; i < newSize; i++) {
 			System.out.print(arr[i] + " ");
 		}
 
