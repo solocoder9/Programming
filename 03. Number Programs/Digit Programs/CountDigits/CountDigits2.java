@@ -1,34 +1,13 @@
-/*
- * Examples:-
- * 
- * Input: 
- * n = 123
- * Output:
- * 3
- * 
- * Input:
- * n = 13457
- * Output:
- * 5
- */
-
 import java.util.Scanner;
 
-public class CountDigits {
-    
+public class CountDigits2 {
+
     // Method to count digits of a number
     public static int countDigits(int n) {
-
-        int countDigit = 0;
-
-        while (n > 0) {
-            n /= 10;
-            countDigit++;
-        }
-
-        return countDigit;
+        return ("" + n).length();
     }
 
+    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
