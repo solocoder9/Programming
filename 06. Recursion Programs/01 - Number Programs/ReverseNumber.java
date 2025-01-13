@@ -7,6 +7,7 @@ public class ReverseNumber {
 
     // Recursive method to reverse a number
     public static void reverseNumber(int n) {
+        
         // Base case: If the number is 0, stop recursion
         if (n == 0) {
             return;
