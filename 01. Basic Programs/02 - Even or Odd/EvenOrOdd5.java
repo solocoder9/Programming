@@ -7,7 +7,7 @@ public class EvenOrOdd5 {
     // Method to check whether the number is even or odd
     // using right shift operator
     public static boolean checkEvenOrOdd(int n) {
-        return (n >> 1) << 1 == 0;
+        return (n >> 1) << 1 == n;
     }
 
     // Driver code
