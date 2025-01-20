@@ -3,24 +3,24 @@ import java.util.Scanner;
 public class MaxConsecutiveOnes {
 
 	// Method to find the maximum consecutive ones
-    // Time Complexity: O(n)
-    // Space Complexity: O(1)
-    public static int findMaxCons(int[] arr) {
-    	
-        int maxCons = 0; 
-        int count = 0;   
+	// Time Complexity: O(n)
+	// Space Complexity: O(1)
+	public static int findMaxCons(int[] arr) {
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 1) {
-                count++; // Increment count if the current element is 1
-                maxCons = Math.max(maxCons, count); // Update max count if needed
-            } else {
-                count = 0; // Reset count
-            }
-        }
+		int maxCons = 0;
+		int count = 0;
 
-        return maxCons;
-    }
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] == 1) {
+				count++; // Increment count if the current element is 1
+				maxCons = Math.max(maxCons, count); // Update max count if needed
+			} else {
+				count = 0; // Reset count
+			}
+		}
+
+		return maxCons;
+	}
 
 	// Driver code
 	public static void main(String[] args) {
