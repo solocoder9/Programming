@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class _13_Smith {
+public class _13_SmithNumber {
 
     // Method to calculate sum of digits of a number
     public static int sumDigits(int n) {
@@ -40,8 +40,8 @@ public class _13_Smith {
         return sumPrimeFactorsDigits;
     }
 
-    // Method to check if the numbe is Smith number or not
-    public static boolean checkSmith(int n) {
+    // Method to check if the number is Smith number or not
+    public static boolean isSmith(int n) {
 
         return sumDigits(n) == sumPrimeFactorsDigits(n);
     }
@@ -53,7 +53,7 @@ public class _13_Smith {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
-        if (checkSmith(n)) {
+        if (isSmith(n)) {
             System.out.println("Smith number");
         } else {
             System.out.println("Not Smith number");
