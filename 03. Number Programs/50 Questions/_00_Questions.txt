@@ -38,7 +38,7 @@
 24.	Given two integers N and M, WAJP to find the number closest to N and divisible by M. If there is more than one such number, output the one with the maximum absolute value.
 •	Input: N = 13, M = 4
 •	Output: 12
-25.	Given two numbers A and B, WAJP to find the Kth digit from the right of A^B.
+25.	Given two numbers A and B, WAJP to find the Kth digit from the right of A^B (A: Base number, B: Exponent).
 •	Input: A = 3, B = 3, K = 1
 •	Output: 7
 26.	Given a positive number X, WAJP to find the largest Jumping Number which is smaller than or equal to X.
