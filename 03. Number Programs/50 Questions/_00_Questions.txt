@@ -48,8 +48,8 @@
 •	Input: N = 24
 •	Output: 3
 28.	Given a number N, WAJP to check if it is a perfect number.
-•	Input: N = 10
-•	Output: 0
+•	Input: N = 28
+•	Output: true
 29.	WAJP to print the first n Fibonacci numbers.
 •	Input: n = 10
 •	Output: 1 1 2 3 5 8 13 21 34 55
