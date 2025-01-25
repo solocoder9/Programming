@@ -81,8 +81,8 @@
 •	Input: n = 10
 •	Output: 1 2 5 8 14 24 34
 39.	WAJP to print a given series.
-•	Input: n = 10
-•	Output: 1 2 8 16 32
+•	Input: n = 6
+•	Output: 1 2 4 8 16 32
 40.	WAJP to print even numbers from 1 to n.
 41.	WAJP to print even digits in a given number.
 42.	WAJP to remove zero digits in a given number.
