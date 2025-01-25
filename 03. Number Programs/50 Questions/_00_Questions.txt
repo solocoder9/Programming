@@ -78,8 +78,8 @@
 •	Input: n = 6
 •	Output: 1 3 6 10 15 21
 38.	WAJP to print a given series.
-•	Input: n = 10
-•	Output: 1 2 5 8 14 24 34
+•	Input: n = 6
+•	Output: 1 2 5 10 17 26
 39.	WAJP to print a given series.
 •	Input: n = 6
 •	Output: 1 2 4 8 16 32
