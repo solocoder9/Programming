@@ -1,5 +1,3 @@
-package Test;
-
 import java.util.Scanner;
 
 public class _40_PrintEven1ToN {
