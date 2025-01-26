@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _30_NthFibonacciNumber {
+public class _30_NthFibonacciNumber2 {
 
     // Recursive method to find the Nth fibonacci number
     public static int fibonacci(int n) {
