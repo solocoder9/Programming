@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class _33_NthFibonacciNumber {
 
     // Method to find the Nth even Fibonacci number
-    public static int nthNthEvenFibonacci(int n) {
+    public static int nthEvenFibonacci(int n) {
         int a = 0, b = 1;
 
         while (n >= 1) {
@@ -25,7 +25,7 @@ public class _33_NthFibonacciNumber {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
-        System.out.println(nthNthEvenFibonacci(n));
+        System.out.println(nthEvenFibonacci(n));
 
         sc.close();
     }
