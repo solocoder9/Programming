@@ -1,5 +1,3 @@
-package Test;
-
 public class _49_PrintTechNumbers {
 
     // Method to print 4-digit Tech numbers
