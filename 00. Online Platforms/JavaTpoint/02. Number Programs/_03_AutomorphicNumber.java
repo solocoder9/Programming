@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class _03_AutomorphicNumber {
 
     // Method to check whether the number is automorphic or not
-    public static boolean checkAutomerphic(int n) {
+    public static boolean checkAutomorphic(int n) {
 
         int square = n * n;
 
@@ -28,7 +28,7 @@ public class _03_AutomorphicNumber {
         System.out.print("Enter any number: ");
         int n = sc.nextInt();
 
-        if (checkAutomerphic(n)) {
+        if (checkAutomorphic(n)) {
             System.out.println(n + " is an Automorphic number");
         } else {
             System.out.println(n + " is not an Automorphic number");
