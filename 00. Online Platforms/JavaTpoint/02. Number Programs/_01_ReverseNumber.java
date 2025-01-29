@@ -4,29 +4,29 @@ import java.util.Scanner;
 
 public class _01_ReverseNumber {
 
-	// Method to reverse a number
-	public static int reverseNumber(int n) {
+    // Method to reverse a number
+    public static int reverseNumber(int n) {
 
-		int revNum = 0;
+        int revNum = 0;
 
-		while (n > 0) {
-			int lastDigit = n % 10;
-			revNum = (revNum * 10) + lastDigit;
-			n /= 10;
-		}
+        while (n > 0) {
+            int lastDigit = n % 10;
+            revNum = (revNum * 10) + lastDigit;
+            n /= 10;
+        }
 
-		return revNum;
-	}
+        return revNum;
+    }
 
-	// Driver code
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+    // Driver code
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter any number: ");
-		int n = sc.nextInt();
+        System.out.print("Enter any number: ");
+        int n = sc.nextInt();
 
-		System.out.println("Reverse number of " + n + " is: " + reverseNumber(n));
+        System.out.println("Reverse number of " + n + " is: " + reverseNumber(n));
 
-		sc.close();
-	}
+        sc.close();
+    }
 }
