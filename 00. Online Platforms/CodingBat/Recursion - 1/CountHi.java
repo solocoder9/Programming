@@ -1,5 +1,3 @@
-package Recursion_CodingBat;
-
 import java.util.Scanner;
 
 public class CountHi {
