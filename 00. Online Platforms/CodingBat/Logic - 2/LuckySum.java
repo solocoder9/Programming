@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LuckySum {
     
     // Method to return sum
-    static int luckySum(int a, int b, int c) {
+    public static int luckySum(int a, int b, int c) {
         if(a == 13) {
             return 0;
         }
