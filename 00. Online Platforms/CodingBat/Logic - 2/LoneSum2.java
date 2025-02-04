@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LoneSum2 {
 
     // Method to return sum
-    static int loneSum(int a, int b, int c) {
+    public static int loneSum(int a, int b, int c) {
         if (a == b && a == c) {
             return 0;
         } else if (a == b) {
