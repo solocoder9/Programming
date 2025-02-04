@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MakeBricks {
     
-    static boolean makeBricks(int small, int big, int goal) {
+    public static boolean makeBricks(int small, int big, int goal) {
 
         int totalLength = small + big * 5;
         if(totalLength < goal) {
