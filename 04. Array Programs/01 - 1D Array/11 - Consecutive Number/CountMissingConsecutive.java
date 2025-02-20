@@ -8,8 +8,6 @@ Input: new int[] {-2, 10, 4}
 Output: 10
 */
 
-package Test;
-
 import java.util.Scanner;
 import java.util.TreeSet;
 
