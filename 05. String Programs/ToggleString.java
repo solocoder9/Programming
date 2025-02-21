@@ -23,5 +23,6 @@ public class ToggleString {
         String str = sc.nextLine();
         System.out.println(toggleString(str));
 
+        sc.close();
     }
 }
